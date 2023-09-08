@@ -8,7 +8,19 @@ class Cardapio:
     def adicionar_item(self, item, preco):
         self.itens.append(item)
         self.precos.append(preco)
+    
+    def remover_item(self, item):
+        del self.itens[item]
+        del self.precos[item]
 
+    def apenas_mostra(self):
+        print("\n"*30)
+        print("="*50)
+        print("Cardápio:")
+        for i in range(len(self.itens)):
+            print(f" {i + 1} {str(self.itens[i]).ljust(45,'.')}...{self.precos[i]}")
+        
+        
     def print_itens(self):
         print("\n"*30)
         print("="*50)
@@ -49,3 +61,7 @@ class Pedido:
             self.item = item
             self.precos = preco
             self.quantidade = qt_itens
+            print("Pedido concluido com sucesso")
+
+        else: 
+            print("Não da")
