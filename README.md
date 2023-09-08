@@ -3,7 +3,7 @@
 ```
 Programa 100% em python usando Orientação de Objetos.
 ```
-<h3>Possuí</h3>
+<h3>Funções</h3>
 
 - [x] Opção de Alterar o Cardapio.
 - [x] Opção de Auto Popular o Cardapio com itens padrão.
