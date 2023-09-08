@@ -24,10 +24,15 @@ Para isto você deverá armazenar em uma lista (lista_convidados) os dados relev
 - [ ] <h4> Cartao </h4>
 
 > numero : int
+
 > itens_consumo : lista de Pedidos
+
 > ativo : bool. True=Ativo. False=Inativo
+
 > ativar_cartao()
+
 > desativar_cartao()
+
 > adicionar_pedido()
 
 - [ ] <h4> Pedido </h4>
