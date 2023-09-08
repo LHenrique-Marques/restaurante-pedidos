@@ -28,7 +28,7 @@ while True:
                     item_novo = input("Digite o nome do item: ")
                     preco_novo = float(input("Digite o preço do produto: "))
                     cardapio.adicionar_item(item_novo,preco_novo)
-                    break             
+                    continue            
                     
                 except:
                     input("Você fez algo de errado, tente novamente.")
@@ -37,9 +37,10 @@ while True:
                 #Faz com que se a escolha for remover o item a pessoa escolha o indice do item escolhido para ser removido.
                 try:
                     cardapio.remover_item(int(input("Digite o número do pedido que deseja remover:  ")) - 1)
-                    break
+                    continue
                 except:
                     input("Você não escolheu um item valido...")
+
         elif inicio == 2:
             #faz com que o cliente escolha seu pedido.
             pedido.escolher_pedido(cardapio)
