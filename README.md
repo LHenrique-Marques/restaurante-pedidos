@@ -1,7 +1,7 @@
 # Sistema de Compra para Restaurantes
 > Status do Projeto: Em progresso.
 ```
-Programa 100% em python usando Orientação de Objetos.
+Programa feito na aula de Orientação de Objetos.
 ```
 <h2> Orientações do Projeto </h2>
 
