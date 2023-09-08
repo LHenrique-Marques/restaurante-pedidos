@@ -12,43 +12,38 @@ Para isto você deverá armazenar em uma lista (lista_convidados) os dados relev
 - [ ] <h4>Convidado</h4>
 
 
-> nome : str
-> telefone : str
-> cartao _de_consumo : Cartao
-> finalizar_consumo()
-> realizar_pedido()
+> nome : str <br>
+> telefone : str <br>
+> cartao _de_consumo : Cartao <br>
+> finalizar_consumo() <br>
+> realizar_pedido() <br>
 
 <h3>Você também deverá criar uma lista com 100 cartões.</h3>
 
 
 - [ ] <h4> Cartao </h4>
 
-> numero : int
-
-> itens_consumo : lista de Pedidos
-
-> ativo : bool. True=Ativo. False=Inativo
-
-> ativar_cartao()
-
-> desativar_cartao()
-
-> adicionar_pedido()
+> numero : int <br>
+> itens_consumo : lista de Pedidos <br>
+> ativo : bool. True=Ativo. False=Inativo <br>
+> ativar_cartao() <br>
+> desativar_cartao() <br>
+> adicionar_pedido() <br>
 
 - [ ] <h4> Pedido </h4>
 
-> item : str
-> quantidade : int
-> valor_pedido : float
-> escolher_item()
+> item : str <br>
+> quantidade : int <br>
+> valor_pedido : float <br>
+> escolher_item() <br>
 
 <h3>Você deverá ter um cardápio com itens e bebidas.</h3>
 
 - [x] <h3> Cardapio </h3>
 
-> itens : list()
-> precos : list()
-> adicionar_itens()
-> retirar_itens()
+> itens : list() <br>
+> precos : list() <br>
+> adicionar_itens() <br>
+> retirar_itens() <br>
 
 
