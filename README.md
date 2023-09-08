@@ -9,7 +9,7 @@ Programa 100% em python usando Orientação de Objetos.
 <h3>Você deverá desenvolver uma aplicação para um evento que controle o consumo de bebidas por pessoa.
 Para isto você deverá armazenar em uma lista (lista_convidados) os dados relevantes dos convidados as classes abaixo:</h3>
 
-- [ ]Convidado
+- [ ] Convidado
 
 
 > nome : str <br>
@@ -21,7 +21,7 @@ Para isto você deverá armazenar em uma lista (lista_convidados) os dados relev
 <h3>Você também deverá criar uma lista com 100 cartões.</h3>
 
 
-- [ ]Cartao
+- [ ] Cartao
 
 > numero : int <br>
 > itens_consumo : lista de Pedidos <br>
@@ -30,7 +30,7 @@ Para isto você deverá armazenar em uma lista (lista_convidados) os dados relev
 > desativar_cartao() <br>
 > adicionar_pedido() <br>
 
-- [ ]Pedido
+- [ ] Pedido
 
 > item : str <br>
 > quantidade : int <br>
@@ -39,7 +39,7 @@ Para isto você deverá armazenar em uma lista (lista_convidados) os dados relev
 
 <h3>Você deverá ter um cardápio com itens e bebidas.</h3>
 
-- [x]Cardapio
+- [x] Cardapio
 
 > itens : list() <br>
 > precos : list() <br>
