@@ -6,8 +6,8 @@ Programa 100% em python usando Orientação de Objetos.
 <h2> Orientações do Projeto </h2>
 
 
-<h3>Você deverá desenvolver uma aplicação para um evento que controle o consumo de bebidas por pessoa.
-Para isto você deverá armazenar em uma lista (lista_convidados) os dados relevantes dos convidados as classes abaixo:</h3>
+<p>Você deverá desenvolver uma aplicação para um evento que controle o consumo de bebidas por pessoa.
+Para isto você deverá armazenar em uma lista (lista_convidados) os dados relevantes dos convidados as classes abaixo:</p>
 
 - [ ] Convidado
 
