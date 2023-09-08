@@ -30,7 +30,7 @@ Para isto você deverá armazenar em uma lista (lista_convidados) os dados relev
 > desativar_cartao() <br>
 > adicionar_pedido() <br>
 
-- [ ] Pedido
+- [x] Pedido
 
 > item : str <br>
 > quantidade : int <br>
